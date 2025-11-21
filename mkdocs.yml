@@ -1,0 +1,101 @@
+site_name: StrExp Knowledgebase
+site_url: https://kb.strexp.net
+repo_url: https://github.com/strexp/kb
+
+nav:
+  - Home: 
+    - index.md
+    - Peering Types: peering-type.md
+    - BGP Communities: bgp-community.md
+    - IPv6 Transition: ipv6-trans.md
+  - IANA Network: 
+    - iana/index.md
+    - Peering Policy: iana/peering-policy.md
+  - DN42 Network:
+    - dn42/index.md
+    - Global Network: 
+      - Peering: dn42/global/peering.md
+      - Services:
+        - Public Services:
+          - OpenPGP Key Server: dn42/global/services/keyserver.md
+        - Local Services:
+          - Authorative DNS: dn42/global/services/auth-dns.md
+          - Mail Service: dn42/global/services/mail.md
+    - China Network: 
+      - Peering: dn42/china/peering.md
+      - VOIP Peering: dn42/china/voip-peering.md
+      - Services:
+        - Public Services:
+          - SpeedTest Service: dn42/china/services/speedtest.md
+          - Software Repository: dn42/china/services/repository.md
+          - DNS Monitor: dn42/china/services/dns-monitor.md
+        - Local Services:
+          - VOIP Service: dn42/china/services/voip.md
+  
+plugins:
+  - search 
+  - tags
+
+markdown_extensions: 
+  - attr_list
+  - md_in_html
+  - tables
+  - admonition
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+theme: 
+  name: material
+  logo: assets/se_logo.svg
+  favicon: assets/se_logo.svg
+  features:
+    - header.autohide
+    - navigation.footer
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.prune
+    - navigation.indexes
+    - toc.follow
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+extra:
+  tags:
+    IPv6 Only: v6-only
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/strexp
