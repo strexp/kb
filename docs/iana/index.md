@@ -10,6 +10,6 @@
 
     Also known as Strategic Explorations. IPv6 Only.
     
-    [Peering Policy](peering-policy){ .md-button }
+    [Peering Policy](peering-policy.md){ .md-button }
 
 </div>

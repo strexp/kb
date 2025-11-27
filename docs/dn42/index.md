@@ -15,7 +15,7 @@
 
     Also known as Niantic Network. IPv6 Only.
     
-    [Peer](global/peering){ .md-button }
+    [Peer](global/peering.md){ .md-button }
 
 -   **:flag_cn: China Network (AS4242420803)**
 
@@ -23,6 +23,6 @@
 
     Cooperate with AS4242420803 NOC in China region.
     
-    [Peer](china/peering){ .md-button }
+    [Peer](china/peering.md){ .md-button }
 
 </div>
