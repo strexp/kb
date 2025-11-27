@@ -1,5 +1,7 @@
 # BGP Communities
 
+Strategic Explorations uses BGP communities to control traffic engineering and propagate route information.
+
 ## Well Known Community
 
 ### 666: Blackhole (RTBH)
@@ -12,7 +14,7 @@
 
 ## Public Community
 
-> These communities can be set by any network.
+> These communities can be set by peers to influence our routing decisions.
 
 ### 2: Local Preference Control
 

@@ -10,9 +10,13 @@
 
 ## Numbering Scheme
 
-- Country Code: `424`
-- Region Code:
-  - DN42: `0`
-  - NeoNetwork: `1`
-- Area Code: `XXXX` (Last 4 digits of ASN)
-- Local Number: `......` (Variable length)
+We follow a unified numbering scheme for routing calls within the network.
+
+| Prefix | Usage | Example |
+| :--- | :--- | :--- |
+| **424** | Country Code | Pan-DN42 Region |
+| **0** / **1** | Region | 0=DN42, 1=NeoNetwork |
+| **XXXX** | Area Code | Last 4 digits of target ASN |
+| **Variable** | Subscriber | Assigned user number |
+
+Example: To call ASN 424242**0803**, dial: `424` + `0` + `0803` + `Extension`.

@@ -5,13 +5,15 @@ tags:
 
 # Authorative DNS
 
-## Anycast Address
+!!! info "Not a Recursive Resolver"
+    These servers are **Authoritative Only**. Do not configure them as your system's DNS resolver. They will only answer queries for the domains listed below.
 
-`fd00:1926:817:5353::1`
+## Server Address
 
-## Node Address
-
-- `sol3.kr`: `fd00:1926:817:5353::2`
+| Node | Type | Address |
+| :--- | :--- | :--- |
+| Anycast | - | `fd00:1926:817:5353::1` |
+| sol3.kr | Primary Server | `fd00:1926:817:5353::2` |
 
 ## Hosted Domains
 

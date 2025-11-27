@@ -1,5 +1,7 @@
 # VOIP Service
 
+StrExp China Branch (Gensokyo Network) operates a VOIP infrastructure bridging DN42 and PSTN.
+
 ## Telephone
 
 Telephone numbers are redacted and available upon request.
@@ -14,6 +16,8 @@ Our network hosts 2 software fax modems capable of receiving faxes in parallel v
 Faxes sent to public number are saved in server and can be viewed at: [fax.gensokyo.dn42](https://fax.gensokyo.dn42)
 
 ## DN42 PSTN Bridge
+
+We operate a gateway to PSTN in limited capacity.
 
 Call `+1 424 242 9915` and follow the guide to dial numbers in DN42.
 
