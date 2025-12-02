@@ -7,6 +7,7 @@ nav:
     - index.md
     - Peering Types: peering-type.md
     - BGP Communities: bgp-community.md
+    - Local Preference Policy: local-pref.md
     - IPv6 Transition: ipv6-trans.md
   - IANA Network: 
     - iana/index.md
@@ -18,6 +19,7 @@ nav:
       - Services:
         - Public Services:
           - OpenPGP Key Server: dn42/global/services/keyserver.md
+          - RPKI Service: dn42/global/services/rpki.md
         - Local Services:
           - Authorative DNS: dn42/global/services/auth-dns.md
           - Mail Service: dn42/global/services/mail.md

@@ -34,10 +34,6 @@ Strategic Explorations uses BGP communities to control traffic engineering and p
 | (OURASN, 5, 4)      | Path Prepend x4                             | 
 | (OURASN, 5, 5)      | Path Prepend x5                             | 
 
-## Internal Community
-
-> These communities are used internally in our networks and SHALL NOT be exposed to outside networks.
-
 ### 4: Peer Type Indicator
 
 | Community           | Description                                 |
@@ -49,11 +45,9 @@ Strategic Explorations uses BGP communities to control traffic engineering and p
 | (OURASN, 4, 40)     | Peer Type: Peer                             |
 | (OURASN, 4, 41)     | Peer Type: Private Peer                     |
 
-### 6: Internal Region Indicator
+### 6: Route Origin Region Indicator
 
 !!! notice "DN42 region communities are auto translated when importing to our network."
-
-    otherwise, the router will add the community of its own region.
 
 | Community           | Description                                 |
 | ------------------- | ------------------------------------------- |
@@ -74,3 +68,25 @@ Strategic Explorations uses BGP communities to control traffic engineering and p
 | (OURASN, 6, 55)     | Origin Region: Asia-N (RU)
 | (OURASN, 6, 56)     | Origin Region: Asia-W (IR,TR,UAE)
 | (OURASN, 6, 57)     | Origin Region: Central Asia (AF,UZ,KZ)
+
+### 7: Route Import Region Indicator
+
+| Community           | Description                                 |
+| ------------------- | ------------------------------------------- |
+| (OURASN, 7, 41)     | Import Region: Europe
+| (OURASN, 7, 42)     | Import Region: North America-E
+| (OURASN, 7, 43)     | Import Region: North America-C
+| (OURASN, 7, 44)     | Import Region: North America-W
+| (OURASN, 7, 45)     | Import Region: Central America
+| (OURASN, 7, 46)     | Import Region: South America-E
+| (OURASN, 7, 47)     | Import Region: South America-W
+| (OURASN, 7, 48)     | Import Region: Africa-N (above Sahara)
+| (OURASN, 7, 49)     | Import Region: Africa-S (below Sahara)
+| (OURASN, 7, 50)     | Import Region: Asia-S (IN,PK,BD)
+| (OURASN, 7, 51)     | Import Region: Asia-SE (TH,SG,PH,ID,MY)
+| (OURASN, 7, 52)     | Import Region: Asia-E (JP,CN,KR,TW,HK)
+| (OURASN, 7, 53)     | Import Region: Pacific&Oceania (AU,NZ,FJ)
+| (OURASN, 7, 54)     | Import Region: Antarctica
+| (OURASN, 7, 55)     | Import Region: Asia-N (RU)
+| (OURASN, 7, 56)     | Import Region: Asia-W (IR,TR,UAE)
+| (OURASN, 7, 57)     | Import Region: Central Asia (AF,UZ,KZ)
