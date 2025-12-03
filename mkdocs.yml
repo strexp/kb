@@ -1,43 +1,12 @@
 site_name: StrExp Knowledgebase
 site_url: https://kb.strexp.net
 repo_url: https://github.com/strexp/kb
-
-nav:
-  - Home: 
-    - index.md
-    - Peering Types: peering-type.md
-    - BGP Communities: bgp-community.md
-    - Local Preference Policy: local-pref.md
-    - IPv6 Transition: ipv6-trans.md
-  - IANA Network: 
-    - iana/index.md
-    - Peering Policy: iana/peering-policy.md
-  - DN42 Network:
-    - dn42/index.md
-    - Global Network: 
-      - Peering: dn42/global/peering.md
-      - Services:
-        - Public Services:
-          - OpenPGP Key Server: dn42/global/services/keyserver.md
-          - RPKI Service: dn42/global/services/rpki.md
-        - Local Services:
-          - Authorative DNS: dn42/global/services/auth-dns.md
-          - Mail Service: dn42/global/services/mail.md
-    - China Network: 
-      - Peering: dn42/china/peering.md
-      - VOIP Peering: dn42/china/voip-peering.md
-      - Services:
-        - Public Services:
-          - SpeedTest Service: dn42/china/services/speedtest.md
-          - Software Repository: dn42/china/services/repository.md
-          - DNS Monitor: dn42/china/services/dns-monitor.md
-        - Local Services:
-          - VOIP Service: dn42/china/services/voip.md
-    - IANA Accessible Services: dn42/iana-services.md
+    
   
 plugins:
   - search 
   - tags
+  - awesome-nav
 
 markdown_extensions: 
   - attr_list
@@ -99,6 +68,8 @@ theme:
 extra:
   tags:
     IPv6 Only: v6-only
+    Internal Service: internal-srv
+    Public Service: public-srv
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/strexp

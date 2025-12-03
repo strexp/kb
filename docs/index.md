@@ -1,4 +1,8 @@
-# Welcome to Strategic Explorations Knowledgebase!
+# Home Page
+
+## About Us
+
+**Welcome to Strategic Explorations Knowledgebase!**
 
 Strategic Explorations Network (referred to as StrExp Network) is a global network service provider formed by the merger of Strategic Explorations and Niantic Network in June 2020. The new StrExp Network inherits the entire infrastructure of the previous two networks and is dedicated to building backbone network services that span multiple distributed networks.
 

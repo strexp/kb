@@ -1,6 +1,7 @@
 ---
 tags:
   - v6-only
+  - public-srv
 ---
 
 # Software Repository

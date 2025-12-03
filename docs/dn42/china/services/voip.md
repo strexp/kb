@@ -1,3 +1,8 @@
+---
+tags:
+  - internal-srv
+---
+
 # VOIP Service
 
 StrExp China Branch (Gensokyo Network) operates a VOIP infrastructure bridging DN42 and PSTN.

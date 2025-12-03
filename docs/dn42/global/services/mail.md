@@ -1,6 +1,7 @@
 ---
 tags:
   - v6-only
+  - internal-srv
 ---
 
 # Mail Service

@@ -1,3 +1,9 @@
+---
+tags:
+  - v6-only
+  - public-srv
+---
+
 # RPKI Server
 
 ## Server
