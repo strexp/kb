@@ -1032,3 +1032,11 @@ function calc_import_region_pref_iana(){
 }
 ```
 </details>
+
+## Special: Strategic Explorations Managed Networks
+
+```
+if arg_network = "dn42" then {
+  if (OWNAS42 = 4242420803) && (bgp_path.first = 4242421331) then bgp_local_pref = bgp_local_pref + 2;
+}
+```
