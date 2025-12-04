@@ -26,6 +26,8 @@
     
     Endpoint: `[REDACTED]` (contact us)
     
+    MTU: 1412
+    
     ---
     
     Pingable Address: `fdd0:5ad7:5f56::`

@@ -8,6 +8,7 @@
     * DN42: `2 + last 4 digits of your ASN`
     * NeoNetwork: `3 + last 4 digits of your ASN`
     * Others: contact us.
+- MTU: 1420
 - Supported channel:
     - [x] ipv6
     - [x] ipv6 multicast
