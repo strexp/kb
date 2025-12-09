@@ -16,7 +16,7 @@ tags:
 
 https://dn42.burble.com/roa/dn42_roa_46.json
 
-## FlapAlertd Server
+## FlapAlertd Collector Server
 
 ### Address
 
@@ -30,3 +30,14 @@ https://dn42.burble.com/roa/dn42_roa_46.json
 - https://dn42.leziblog.com/flapAlerted
 - https://flaps.ox5.cc
 - https://flaps-dn42.wwrr.ru
+- https://flap42.strexp.net
+
+## FlapAlertd Server
+
+### Address
+
+`rpki.nia.dn42:8084`
+
+### Source
+
+https://flap42.strexp.net
