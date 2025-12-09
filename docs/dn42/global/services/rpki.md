@@ -6,10 +6,27 @@ tags:
 
 # RPKI Server
 
-## Server
+## Primary Server
+
+### Address
 
 `rpki.nia.dn42:8082`
 
-## Source
+### Source
 
 https://dn42.burble.com/roa/dn42_roa_46.json
+
+## FlapAlertd Server
+
+### Address
+
+`rpki.nia.dn42:8083`
+
+### Source
+
+(Mininal votes: 2)
+
+- https://flapalerted.esd.cc
+- https://dn42.leziblog.com/flapAlerted
+- https://flaps.ox5.cc
+- https://flaps-dn42.wwrr.ru
