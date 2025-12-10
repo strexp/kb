@@ -88,3 +88,12 @@ Strategic Explorations uses BGP communities to control traffic engineering and p
 | (OURASN, 11, {REGION}) | Prepend x1 at `REGION`                      |
 | (OURASN, 12, {REGION}) | Prepend x2 at `REGION`                      |
 | (OURASN, 13, {REGION}) | Prepend x3 at `REGION`                      |
+
+### 20: RPKI Check Result
+
+| Community       | Description                                 |
+| --------------- | ------------------------------------------- |
+| (OURASN, 20, 1) | RPKI Check: VALID                           |
+| (OURASN, 20, 2) | RPKI Check: INVALID                         |
+| (OURASN, 20, 3) | RPKI Check: UNKNOWN                         |
+| (OURASN, 20, 4) | RPKI Check: INVALID (Flapping Route)        |
