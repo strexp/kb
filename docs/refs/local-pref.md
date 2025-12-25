@@ -10,7 +10,7 @@ This strategy ensures that traffic prefers:
 
 ## AS Path Length
 
-- **Direct Peering Bonus**: If the AS Path length is 1 (direct peer), we increase the preference significantly (+3) to prioritize direct connections over transit.
+- **Direct Peering Bonus**: If the AS Path length is 1 (direct peer), we increase the preference significantly to prioritize direct connections over transit.
 - **Hop Penalty**: For all other routes, we strictly penalize the preference based on the number of hops (-length).
 
 ```
@@ -1038,6 +1038,7 @@ function calc_import_region_pref_iana(){
 ```
 if arg_network = "dn42" then {
   if (OWNAS42 = 4242420803) && (bgp_path.first = 4242421331) then bgp_local_pref = bgp_local_pref + 2;
+  if (OWNAS42 = 4242421331) && (bgp_path.first = 4242420803) then bgp_local_pref = bgp_local_pref + 2;
 }
 ```
 
