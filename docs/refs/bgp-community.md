@@ -23,6 +23,20 @@ Strategic Explorations uses BGP communities to control traffic engineering and p
 | 55                  | Asia-N (RU) |
 | 56                  | Asia-W (IR,TR,UAE) |
 | 57                  | Central Asia (AF,UZ,KZ) |
+| 1124                | Canada |
+| 1156                | China |
+| 1158                | Taiwan |
+| 1250                | France |
+| 1276                | Germany |
+| 1344                | Hong Kong |
+| 1392                | Japan |
+| 1528                | Netherlands |
+| 1578                | Norway |
+| 1643                | Russian Federation |
+| 1702                | Singapore |
+| 1756                | Switzerland |
+| 1826                | United Kingdom |
+| 1840                | United States of America |
 
 ## Well Known Community
 
@@ -73,6 +87,7 @@ Strategic Explorations uses BGP communities to control traffic engineering and p
 
 | Community             | Description                                 |
 | --------------------- | ------------------------------------------- |
+| (OURASN, 6, 1)        | Origin Region: Unknown                      |
 | (OURASN, 6, {REGION}) | Origin Region: `REGION`                     |
 
 ### 7: Route Import Region Indicator

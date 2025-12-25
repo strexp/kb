@@ -1047,3 +1047,9 @@ if arg_network = "dn42" then {
 if REGION_COUNTRY_CN != COUNTRY && COMM_REGION_COUNTRY_CN ~ bgp_large_community then bgp_local_pref = bgp_local_pref - 2;
 if REGION_COUNTRY_CN = COUNTRY && COMM_REGION_COUNTRY_CN ~ bgp_large_community then bgp_local_pref = bgp_local_pref + 1;
 ```
+
+## Special: Avoid unknown source origin
+
+```
+if COMM_REGION_UNKNOWN ~ bgp_large_community then bgp_local_pref = bgp_local_pref - 2;
+```
