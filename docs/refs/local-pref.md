@@ -1040,3 +1040,10 @@ if arg_network = "dn42" then {
   if (OWNAS42 = 4242420803) && (bgp_path.first = 4242421331) then bgp_local_pref = bgp_local_pref + 2;
 }
 ```
+
+## Special: Avoid transit across China GFW
+
+```
+if REGION_COUNTRY_CN != COUNTRY && COMM_REGION_COUNTRY_CN ~ bgp_large_community then bgp_local_pref = bgp_local_pref - 2;
+if REGION_COUNTRY_CN = COUNTRY && COMM_REGION_COUNTRY_CN ~ bgp_large_community then bgp_local_pref = bgp_local_pref + 1;
+```
