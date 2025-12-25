@@ -1053,3 +1053,14 @@ if REGION_COUNTRY_CN = COUNTRY && COMM_REGION_COUNTRY_CN ~ bgp_large_community t
 ```
 if COMM_REGION_UNKNOWN ~ bgp_large_community then bgp_local_pref = bgp_local_pref - 2;
 ```
+
+## Special: Prefer eBGP
+
+```
+if arg_network = "iana" then {
+  if COMM_SOURCE_IBGP_IANA ~ bgp_large_community then bgp_local_pref = bgp_local_pref - 1;
+}
+if arg_network = "dn42" then {
+  if COMM_SOURCE_IBGP_DN42 ~ bgp_large_community then bgp_local_pref = bgp_local_pref - 1;
+}
+```
