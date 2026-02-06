@@ -126,3 +126,9 @@
     Pingable Address: `fd00:1926:817:11::`
 
 </div>
+
+## Manually Peering
+
+Download, print, fill and send the peering form to us.
+
+[Peering Form](https://github.com/YukariChiba/peering-form/releases/latest/download/index.pdf){ .md-button }
