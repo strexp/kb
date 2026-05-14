@@ -125,6 +125,18 @@
     
     Pingable Address: `fd00:1926:817:11::`
 
+  -   :flag_jp: **Tokyo 1, Japan** (`tyo1.jp`)
+
+    ---
+
+    PubKey: `bQX37qrIRyWKlT7lQ6XB6ZjCebBj2flKOqmqHeHu73E=`
+    
+    Endpoint: `tyo1.jp.dn42.strexp.net`
+
+    ---
+    
+    Pingable Address: `fd00:1926:817:7::`
+
 </div>
 
 ## Manually Peering
