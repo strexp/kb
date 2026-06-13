@@ -33,3 +33,15 @@
     Pingable Address: `fdd0:5ad7:5f56::`
 
 </div>
+
+## Manually Peering
+
+### Via Messages
+
+You can contact us directly using the contact details listed on the homepage, for example by sending us an email or providing your connection details to set up a peer-to-peer connection.
+
+### Via Forms
+
+Please download, print, complete and check the 420N form, then send it to us by post, email or fax.
+
+[Peering Form](https://github.com/YukariChiba/peering-form/releases/latest/download/420N.pdf){ .md-button }

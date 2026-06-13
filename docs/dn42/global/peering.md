@@ -141,6 +141,12 @@
 
 ## Manually Peering
 
-Download, print, fill and send the peering form to us.
+### Via Messages
 
-[Peering Form](https://github.com/YukariChiba/peering-form/releases/latest/download/index.pdf){ .md-button }
+You can contact us directly using the contact details listed on the homepage, for example by sending us an email or providing your connection details to set up a peer-to-peer connection.
+
+### Via Forms
+
+Please download, print, complete and check the 420N form, then send it to us by post, email or fax.
+
+[Peering Form](https://github.com/YukariChiba/peering-form/releases/latest/download/420N.pdf){ .md-button }
